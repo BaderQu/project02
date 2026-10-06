@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.palette {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.swatch {
+  width: 150px;
+  height: 100px;
+  padding: 10px;
+  color: white;
+  border: 1px solid black;
+}
+
+.named {
+  background-color: tomato;
+}
+
+.hex {
+  background-color: #2e86de;
+}
+
+.rgb {
+  background-color: rgb(46, 204, 113);
+}
+
+.rgba {
+  background-color: rgba(155, 89, 182, 0.5);
+  color: black;
+}
+
+.compare {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  background-color: #222222;
+}
+
+.box {
+  width: 200px;
+  height: 120px;
+  padding: 10px;
+  color: white;
+}
+
+.opacity-box {
+  background-color: red;
+  opacity: 0.5;
+}
+
+.rgba-box {
+  background-color: rgba(255, 0, 0, 0.5);
+}
